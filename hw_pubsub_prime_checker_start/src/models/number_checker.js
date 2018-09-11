@@ -14,7 +14,7 @@ NumberChecker.prototype.bindEvents = function () {
 
 
 NumberChecker.prototype.checkNumber = function (n) {
-  console.log('number is checked in number checker');
+  // console.log('number is checked in number checker');
    // if n is less than 2 or not an integer then cannot be prime
    if (n < 2) {
      return false

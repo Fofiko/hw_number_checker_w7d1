@@ -9,7 +9,7 @@ FormView.prototype.bindEvents = function () {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     const inputtedNumber = event.target.number.value;
-    console.log('inputtedNumber: ', inputtedNumber);
+    // console.log('inputtedNumber: ', inputtedNumber);
     PubSub.publish('FormView:number-submitted', inputtedNumber);
   });
 };
